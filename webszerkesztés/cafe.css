@@ -56,3 +56,14 @@ img {
     border-radius: 10px;
     padding: 10px;
 }
+.name {
+    color: brown;
+    text-decoration: underline;
+}
+.name:hover {
+    color: brown;
+    text-decoration: underline;
+}
+.contact-ul {
+    padding: 20px !important;
+}

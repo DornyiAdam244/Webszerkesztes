@@ -92,7 +92,7 @@
                 <div class="col-lg-4 col-md-6 text-justify">
                     <h4>Kávé árlista</h4>
                     <table class="table ">
-                        <thead class="bg-dark text-white">
+                        <thead>
                             <tr class="bg-dark text-white">
                                 <th>Kávé típusa</th>
                                 <th>Ár</th>
@@ -126,18 +126,21 @@
             </div>
 
             <!-- Elérhetőségek -->
-            <h2 class="my-4" id="contact">Elérhetőségek</h2>
-            <ul>
-                <li>Üzemeltető: Horváth Anna</li>
-                <li> Cím: 6720 Szeged, Kávé utca 1. </li>
-                <li> Telefonszám: +36 20 555 1234</li>
-                <li>Email: info@cafe-arroma.hu</li>
-            </ul>
+
 
 
             <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="my-4" id="contact">Elérhetőségek</h2>
+                    <ul class="contact-ul">
+                        <li>Üzemeltető: Horváth Anna</li>
+                        <li> Cím: 6720 Szeged, Kávé utca 1. </li>
+                        <li> Telefonszám: +36 20 555 1234</li>
+                        <li>Email: info@cafe-arroma.hu</li>
+                    </ul>
+                </div>
                 <!-- Üzenetküldő űrlap -->
-                <div>
+                <div class="col-lg-6">
                     <form class="urlap">
                         <div class="form-group">
                             <label for="name">Név:</label>
@@ -154,8 +157,8 @@
 
         </article>
         <!-- Elhelyezkedés -->
-        <h2 id="location" class="my-4">Elhelyezkedés</h2>
-        <p>Café Aroma található a szegedi belváros szívében, könnyen megközelíthető tömegközlekedéssel és autóval
+        <h2 id="location" class="my-4 ml-3">Elhelyezkedés</h2>
+        <p class="ml-3">Café Aroma található a szegedi belváros szívében, könnyen megközelíthető tömegközlekedéssel és autóval
             egyaránt. Parkolási lehetőségek a közelben.</p>
         <div id="map-container" style="height: 400px; width: 100%;">
             <iframe
@@ -166,7 +169,8 @@
         </div>
         <!-- Lábléc -->
         <footer class="p-2">
-            <p class="text-center">Készítette: Dornyi Ádám Róbert</p>
+            <p class="text-center">Készítette: <a class="name" target=" _blank  "
+                    href="https://bankitatabanya.hu/">Dornyi Ádám Róbert</a></p>
         </footer>
     </div>
 </body>
